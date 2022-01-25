@@ -85,6 +85,6 @@ public class Dharshan {
 	               //Once this method is called, calling any Extent method will throw an error.
 	               //close() - To close all the operation
 	               extent.close();
-	               driver.close();
+	               driver.quit();
 	   }
 }
